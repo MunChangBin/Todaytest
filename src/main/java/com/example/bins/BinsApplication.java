@@ -1,8 +1,10 @@
 package com.example.bins;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@Autowired
 @SpringBootApplication
 public class BinsApplication {
 
