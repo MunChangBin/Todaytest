@@ -11,12 +11,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
-@RequestMapping("question")
+@RequestMapping("article")
 @RequiredArgsConstructor
 @Controller
 public class QuestionController {
-
-    private final QuestionRepository questionRepository;
 
     private final QuestionService questionService;
 
